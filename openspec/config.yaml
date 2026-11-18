@@ -1,0 +1,6 @@
+schema: spec-driven
+context: |
+  Lupio is a personal GitHub PR review queue for macOS and Linux.
+  Write artifacts in Japanese. Agreed scope: docs/mvp.md. Terms: GLOSSARY.md.
+  This is a new application; no production behavior has been implemented.
+  Specifications are behavior contracts; technical choices belong in design.md.
