@@ -4,12 +4,12 @@
 
 - [x] 1.1 認証方式（OAuth + PKCE／device flow／GitHub App）と権限・組織承認を比較し、必要な構成判断を確認する。
 - [x] 1.2 実アカウントで個人・選択チームの依頼取得とレビュー後の追跡を試す。
-- [ ] 1.3 macOS・Linux の対象バージョン、配布形式、資格情報ストアを確定する。
+- [x] 1.3 macOS・Linux の対象バージョン、配布形式、資格情報ストアを確定する。
 - [x] 1.4 約30件の取得量を計測し、一分更新と API 制限の両立を確認する。
 
 試作の実測値と確認した組織の設定は [GitHub 認証・定期取得の試作](../../../docs/github-api-probe.md) を参照。
 
-1.3 の対応範囲案と Linux の実測は [対応OS・配布形式と資格情報ストア](../../../docs/platform-credential-probe.md) を参照。macOS の Keychain 実機検証が残っている。
+1.3 の対応範囲と macOS・Linux の実測は [対応OS・配布形式と資格情報ストア](../../../docs/platform-credential-probe.md) を参照。
 
 ## 2. 基盤
 
